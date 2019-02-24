@@ -1,0 +1,1635 @@
+body{
+    margin: 0;
+    direction: rtl;
+    background-color: #2D2D2D
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+}
+@font-face{
+    font-family: bmit;
+    src: url(fonts/BMITRA_0.TTF);
+}
+@font-face{
+    font-family: bzar;
+    src: url(fonts/BZAR_0.TTF);
+}
+@font-face{
+    font-family: bteh;
+    src: url(fonts/BTehran.ttf);
+}
+@font-face{
+    font-family: heb;
+    src: url(fonts/AdobeHebrew-Bold.otf);
+}
+@font-face{
+    font-family: cordi;
+        src:url(fonts/CORDIA.TTF);
+}
+#di1{
+    font-size: 18px;
+    color: antiquewhite;
+}
+.ci1{
+    font-size: 20px;
+    color: antiquewhite;
+}
+#di2{
+    font-size: 33px;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+#dnav1{
+    width: 100%;
+    height: 40px;
+}
+#dnav2{
+    width: 10%;
+    height: 40px;
+    margin-right: 1%;
+    background-color: #3A43B3;
+    font-family: bmit;
+    font-size: 30px;
+    text-align: center;
+}
+.anv2{
+    color: antiquewhite;
+}
+#dnav3{
+    width: 2%;
+    height: 30px;
+    margin:-40px 11% 0 0;
+    padding-top: 10px;
+    position: absolute;
+    text-align: center;
+    color: antiquewhite;
+    transition: all .3s;
+}
+#dnav31{
+    width: 900%;
+    height: 300px;
+    position: absolute;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    margin-right: -50%;
+    border-radius: 8px;
+    z-index: 1;
+    display: none;
+}
+#dnav3:hover #dnav31{
+    display: block;
+}
+#dnav31:hover {
+    display: block;
+}
+#dnav38{
+    width: 6%;
+    height: 13px;
+    position: absolute;
+    margin: -10px 8% 0 0;
+}
+#dnav32{
+    width:96%;
+    height:180px;
+    background-color: #FFFFFF;
+    margin:5px 2% 0 0;
+    border-bottom:2px solid #ABABAB;
+}
+#dnav33{
+    width: 99%;
+    height: 35px;
+    border-top:3px groove #EBEBEB;
+    border-left:.5px groove #EBEBEB;
+    border-right:.5px groove #EBEBEB;
+    border-bottom:.5px groove #EBEBEB;
+    font-family: bzar;
+    font-size: 16px;
+    text-indent: 10px;
+ }
+#dnav34{
+    width: 99%;
+    height: 35px;
+    border-top:3px groove #EBEBEB;
+    border-left:.5px groove #EBEBEB;
+    border-right:.5px groove #EBEBEB;
+    border-bottom:.5px groove #EBEBEB;
+    margin-top: 20px;
+    font-family: bzar;
+    font-size: 16px;
+    text-indent: 10px;
+}
+#dnav35{
+    width: 100%;
+    height: 55px;
+    background-color: #DDDDDD;
+    margin-top: 15px;
+    padding-top: 00px;
+    font-family: bteh;
+    font-size: 30px;
+    color: #1D1C1C;
+    transition: all .5s;
+}
+#dnav35:hover{
+    background-color: #A4A2A2;
+}
+#dnav36{
+    width: 96%;
+    height: 42px;
+    background-color: #FFFFFF;
+    margin-right: 2%;
+    border-bottom:2px solid #ABABAB;
+    color: #7B7B7B;
+    text-align: right;
+    text-indent: 5px;
+    font-family: bmit;
+    font-size: 22px;
+    padding-top: 8px;
+}
+#anav36{
+    color: #151515;
+    font-weight: bold;
+}
+#dnav37{
+    width: 96%;
+    height: 36px;
+    background-color: #FFFFFF;
+    margin-right: 2%;
+    text-align: right;
+    font-weight: bold;
+    text-indent: 5px;
+    font-family: bmit;
+    font-size: 18px;
+    padding-top: 8px;
+}
+#anav37{
+    color: #1E1D1D;
+}
+#dnav3:hover{
+    background-color:#B31114;
+}
+#dnav4{
+    width: 17%;
+    height: 30px;
+    background-color: #949292;
+    position: absolute;
+    margin:-35px 14% 0 0;
+    border-radius: 7px;
+    border: none;
+    font-family: bmit;
+    font-size: 19px;
+    text-align: center;
+    color: #3E3E3E;
+    transition: all .25s;
+}
+#dnav4:hover{
+    background-color: #FFFFFF;
+}
+#dnav5{
+    width: 14%;
+    height: 40px;
+    position: absolute;
+    margin: -40px 32.5% 0 0;
+}
+.cnav6{
+    width: 14%;
+    height: 30px;
+    float: right;
+    margin-right: 3%;
+    text-align: center;
+    padding-top: 10px;
+    transition: all .3s;
+}
+.cnav6:hover{
+    background-color: #B31114;
+}
+#dnav6{
+    width: 8%;
+    height: 40px;
+    margin: -40px 90% 0 0;
+    background-color: #5D1618;
+    font-family: bmit;
+    font-size: 27px;
+    text-align: center;
+    color: antiquewhite;
+    transition: all .2s;
+}
+#dnav6:hover{
+    background-color: #B31114;
+}
+#dnav7{
+    width: 100%;
+    height: 60px;
+    background-color: #2E2D2D;
+}
+#dnav8{
+    width: 49%;
+    height: 60px;
+    margin-right: 1%;
+}
+.cnav8{
+    width: 10.5%;
+    height: 45px;
+    float: right;
+    margin-right:.5%;
+    background-color: ;
+    text-align: center;
+    font-family: bteh;
+    padding-top: 15px;
+    font-size: 17px;
+    transition: all .5s;
+}
+.cnav8:hover {
+    background-color: #B31114;
+    padding-top: 25px;
+    height: 35px;
+}
+#dnav9{
+    width: 14%;
+    height: 36px;
+    margin:-45px 84% 0 0;
+    transition: all .5s;
+    color:#ADAAAA;
+}
+#dnav10{
+    width: 20%;
+    height: 35px;
+    float: left;
+    text-align: left;
+    margin-top: 2px;
+}
+#dnav11{
+    width: 80%;
+    height: 36px;
+    float: left;
+    text-align: left;
+    font-family: boin;
+    font-size: 35px; 
+}
+#dnav9:hover{
+    color: #6A6565;
+}
+header{
+    width: 100%;
+    height: 45px;
+    background-color: #9A9595;
+}
+#dhead1{
+    width: 50%;
+    height: 22.5px;
+    float: right;
+    margin: 9px 2% 0 0;
+    color: antiquewhite;
+}
+.ahead1{
+    color: #0D0D0D;
+}
+.chead1:hover{
+ text-decoration: underline;
+}
+.chead1{
+    width: 6%;
+    height: 22.5px;
+    float: right;
+    font-family: bteh;
+    margin-right: 2.4%;
+    font-size: 17px;
+}
+#dhead11{
+    width: 6%;
+    height: 22.5px;
+    float: right;
+    font-family: bteh;
+    margin-right: 2.4%;
+    font-size: 17px;
+}
+#dhead2{
+    width: 1%;
+    height: 10px;
+    position: absolute;
+    font-family: bmit;
+    font-size: 18px;
+    color: #D5D1D1;
+    margin: 14px 6.5% 0 0;
+}
+#dhead3{
+    width: 1%;
+    height: 10px;
+    position: absolute;
+    font-family: bmit;
+    font-size: 18px;
+    color: #D5D1D1;
+    margin: 14px 10.6% 0 0;
+}
+section{
+    width: 100%;
+    height: 760px;
+    background-color: #222020;
+}
+#dsec1{
+    width: 23%;
+    height: 360px;
+    float: left;
+    margin: 80px 0 0 13%;
+    overflow: scroll;
+}
+.csec1{
+    width: 100%;
+    height: 71.8px;
+    border-bottom: 1px solid #767373;
+    transition: all .5s;
+}
+#dcsec1{
+    background-color: #938F8F;
+}
+.csec1:hover{
+    background-color: #938F8F; 
+}
+.csec2{
+    width: 17%;
+    height: 50px;
+    background-color: aqua;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5%;
+}
+.csec3{
+    width: 50%;
+    height: 15px;
+    float: right;
+    margin: 2px  5% 0 0;
+    font-family: bmit;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.csec4{
+    width: 45%;
+    height: 15px;
+    margin: 4px 5% 0 0;
+    float: right;
+    font-family: bmit;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.csec5{
+    width: 45%;
+    height: 17px;
+    margin: 25px -45% 0 0;
+    float: right;
+    font-family: bmit;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.csec6{
+    width: 5.4%;
+    height: 20px;
+    float: right;
+    margin: 28px 4% 0 0;
+}
+.ci2{
+    font-size: 18px;
+    color: #666666;
+}
+#dsec2{
+    width: 23%;
+    height: 350px;
+    background-color: ;
+    float: left;
+    margin: 80px 0 0 5%;
+    box-shadow: -.1px -.1px 10px 2px #171717;
+}
+#dsec3{
+    width: 23%;
+    height: 380px;
+    float: left;
+    margin: 80px 0 0 2%;
+}
+#dsec4{
+    width: 30%;
+    height: 20px;
+    margin:2px 35%;
+    text-align: center;
+    font-family: bmit;
+    font-size: 19px;
+    color: white;
+}
+#dsec5{
+    width: 30%;
+    height: 20px;
+    margin:0 35%;
+    text-align: center;
+    font-family: bmit;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+#dsec6{
+    width: 24%;
+    height: 20px;
+    margin:20px 16%;
+    float: right;
+    font-family: bmit;
+    font-size: 15px;
+    color: #666666;
+}
+#dsec7{
+    width: 48%;
+    height: 20px;
+    float: right;
+    margin: 20px -13.9% 0 0;
+    font-family: bmit;
+    font-size: 15px;
+    border-right: 1px solid #666666;
+    text-indent: 8px;
+    color: #666666;
+}
+.csec7{
+    width: 50%;
+    height: 100px;
+    float: right;
+    border-radius: 9px;
+    color: #707070;
+    transition: all .5s;
+}
+.csec7:hover{
+    background-color: #B3B3B3;
+}
+.csec8{
+    width:30%;
+    height:40px;
+    margin: 15px 40%;
+    font-size: 50px;
+}
+.csec9{
+    width: 74%;
+    height: 40px;
+    margin-right: 13.5%;
+    margin-top: 13px;
+    font-family: bmit;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#dsec8{
+    width: 100%;
+    height: 40px;
+    float: right;
+    border-radius: 5px;
+    font-family: bmit;
+    font-size: 22px;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    transition: all .5s;
+}
+#dsec8:hover{
+    background-color: #979797;
+}
+#di3{
+    font-size: 18px;
+}
+.csec10{
+    width:33.33%;
+    height: 35px;
+    float: right;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 15px;
+    color: antiquewhite;
+    transition: all .5s;
+}
+.csec10:hover{
+    background-color: #979797;  
+}
+.csec11{
+    width: 100%;
+    height: 12px;
+    margin-top: 10px;
+    float: right;
+    font-family: bteh;
+    font-size: 20px;
+    color: antiquewhite;
+}
+#dcsec11{
+    margin-top: -10px;
+}
+#dsec9{
+    width: 38%;
+    height: 23px;
+    margin-top: 38px;
+    float: right;
+    color: antiquewhite;
+    font-family: heb;
+}
+#dsec10{
+    width: 21%;
+    height:50px;
+    float: right;
+    margin: -13px 36.7% 0 0; 
+}
+.csec12{
+    width: 19%;
+    height: 35px;
+    margin-right: 1%;
+    float: right;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 25px;
+    color: #707070;
+}
+.asec{
+    color:#707070;
+}
+
+#dsec11{
+    width: 4%;
+    height: 25px;
+    float: left;
+    margin: 52px 0 0 14%;
+    color: white;
+}
+#dsec12{
+    width: 51%;
+    height: 2px;
+    float: left;
+    margin: 23px 0 0 2%;
+    background-color:#707070;
+}
+@keyframes animsec1{
+    from{transform: translate(0,0);}
+    to{transform: translate(4180%,0);}
+}
+#dsec13{
+    width: 1.2%;
+    height: 15px;
+    position: absolute;
+    margin: 513px 79% 0 0; 
+    color: #BBB7B7;
+    animation-name: animsec1;
+    animation-duration: 201s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+#dsec14{
+    width: 4%;
+    height: 25px;
+    position: absolute;
+    margin: 512px 25% 0 0;
+    color: white;
+}
+#dsec155{
+    width: 1%;
+    height: 15px;
+    position: absolute;
+    margin: 514px 23% 0 0;
+    color: white;
+}
+#dsec166{
+    width: 8%;
+    height: 2px;
+    position: absolute;
+    margin: 521px 14% 0 0;
+    background-color:#707070;
+}
+#dsec177{
+    width: 1%;
+    height: 15px;
+    position: absolute;
+    margin: 517px 18% 0 0;
+    color: white;
+    font-size: 10px;
+}
+#dsec188{
+    width: 1%;
+    height: 15px;
+    position: absolute;
+    margin: 514px 12% 0 0;
+    color: white;
+    font-size: 15px;
+}
+footer{
+    width: 100%;
+    height: 140px;
+}
+#dsec15{
+    width: 100%;
+    height: 60px;
+    float: right;
+    background-color: #FFFFFF;
+    margin-top: 0;
+}
+#dsec16{
+    width: 50%;
+    height: 60px;
+    margin-right: 25%;
+    float: right;
+}
+.csec24{
+    width: 15.5%;
+    height: 60px;
+    margin-right: 1.16%;
+    float: right;
+    transition: all .3s;
+}
+.csec25{
+    width: 7.75%;
+    height: 40px;
+    position: absolute;
+    margin-top: 10px;
+    font-family: bteh;
+    font-size:25px;
+    text-align: center;
+    color: #6A6969;
+}
+.csec24:hover{
+    background-color: #F2EFEF;
+}
+#dsec17{
+    width: 100%;
+    height: 80px;
+    background-color: #212121;
+    float:right;
+}
+#dsec18{
+    width: 4.3%;
+    height: 20px;
+    color: antiquewhite;
+    float: left;
+    margin: 15px 0 0 1%;
+    direction: ltr;
+    text-align: left;
+    font-family: Cordi;
+    font-size: 20px;
+}
+#dsec21{
+    width: 5.2%;
+    height: 20px;
+    color: antiquewhite;
+    float: left;
+    margin: 12px 0 0 0;
+    direction: ltr;
+    text-align: left;
+    font-family: Cordi;
+    font-size: 23px;
+    font-weight: bold;
+}
+#dsec22{
+    width: 18%;
+    height: 20px;
+    color: antiquewhite;
+    float: left;
+    margin: 16px 0 0 0;
+    direction: ltr;
+    text-align: left;
+    font-family: Cordi;
+    font-size: 20px;
+}
+#dsec19{
+    width: 40%;
+    height: 20px;
+    color: antiquewhite;
+    margin: 40px 59% 0 0;
+    direction: ltr;
+    text-align: left;
+    font-family: Cordi;
+    font-size: 20px;
+}
+#dsec20{
+    width: 15%;
+    height: 30px;
+    position: absolute;
+    margin: -35px 2% 0 0;
+}
+.csec26{
+    width:15%;
+    height: 25px;
+    float: right;
+    margin-right: 1%;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 5px;
+}
+.csec26:hover{
+    background-color: #B31114;
+}
+/*nav listpakhsh*/
+@media screen and (max-width:1480px){
+    .cnav8{
+        width: 11%;
+    }  
+}
+/*nav rain music*/
+@media screen and (max-width:1466px){
+    #dnav9{
+        width: 16%;
+    }  
+}
+/*foot rain music*/
+@media screen and (max-width:1450px){
+    #dsec21{
+        width: 5.3%;
+    }  
+}
+/*foot 2018 by*/
+@media screen and (max-width:1450px){
+    #dsec18{
+        width: 5%;
+    }  
+}
+/*nav listpakhsh*/
+@media screen and (max-width:1412px){
+    .cnav8{
+        width: 12%;
+    }  
+}
+/*foot rain music*/
+@media screen and (max-width:1422px){
+    #dsec21{
+        width: 5.7%;
+    }  
+}
+/*foot the largest */
+@media screen and (max-width:1389px){
+    #dsec19{
+        width: 60%;
+        margin-right: 39%;
+    }  
+}
+/*nav facebook */
+@media screen and (max-width:1323px){
+    #dnav2{
+        font-size: 25px;
+    }  
+}
+/*nav rain music*/
+@media screen and (max-width:1324px){
+    #dsec21{
+        width: 6.5%;
+    }   
+}
+/*foot harim khosoosi*/
+@media screen and (max-width:1302px){
+    .csec25{
+        width: 9.2%;
+        text-align: center;
+    }  
+    .csec24{
+        width:15.5% ;
+    }
+    #dsec16{
+        width: 60%;
+        margin-right: 20%;
+    }
+}
+/*nav pakhsh music */
+@media screen and (max-width:1297px){
+    #dnav6{
+        width: 11%;
+        margin-right: 88%;
+    }  
+}
+/*nav listpakhsh & rain music*/
+@media screen and (max-width:1295px){
+      #dnav9{
+        width: 20%;
+        margin-right: 78%;
+    }
+    #dnav8{
+        width: 60%;
+    }  
+}
+/*nav sabte nam*/
+@media screen and (max-width:1290px){
+    #dnav31{
+        width: 1000%;
+    }  
+}
+/*foot 2018 by*/
+@media screen and (max-width:1236px){
+    #dsec18{
+        width: 5.7%;
+    }  
+}
+/*foot rain music*/
+@media screen and (max-width:1163px){
+    #dsec21{
+        width: 7.2%;
+    }   
+}
+/*nav sabte nam*/
+@media screen and (max-width:1163px){
+    #dnav31{
+        width: 1200%;
+    }  
+}
+/*nav facebook search logoes*/
+@media screen and (max-width:1105px){
+    #dnav5{
+        width: 25%;
+        margin-right: 45%;
+    }
+    #dnav4{
+        width: 20%;
+        margin-right: 22%;
+    }
+    #dnav2{
+        width: 15%;
+        margin-right: 2%;
+    }
+    #dnav3{
+        margin-right: 19%;
+    }
+}
+/*foot harim khosoosi*/
+@media screen and (max-width:1101px){
+    .csec25{
+        width: 10.5%;
+        text-align: center;
+    }  
+    .csec24{
+        width:15% ;
+    }
+    #dsec16{
+        width: 70%;
+        margin-right: 15%;
+    }
+}
+/*foot logoes */
+@media screen and (max-width:1089px){ 
+    #dsec20{
+        margin-top: -50px;
+        width: 40%;
+        margin-right: 2%;
+    }
+    .csec26{
+        width: 10.5%;
+        margin-right: 2%;
+        text-align: center;
+    } 
+}
+/*foot 2018 by*/
+@media screen and (max-width:1087px){
+    #dsec18{
+        width: 6.7%;
+    }  
+}
+/*nav listpakhsh & rain music*/
+@media screen and (max-width:1055px){
+    #dnav8{
+        width: 70%;
+    }
+    .cnav8{
+        width: 12%;
+    }
+    #dnav9{
+        position: absolute;
+    }
+}
+/*foot rain music*/
+@media screen and (max-width:1053px){
+    #dsec21{
+        width: 8.2%;
+    }   
+}
+/*nav rain music*/
+@media screen and (max-width:1031px){
+    #dnav9{
+        width: 29%;
+        margin-right: 70%;
+    }  
+}
+/*foot harim khosoosi*/
+@media screen and (max-width:966px){
+    .csec25{
+        width: 15.5%;
+        text-align: center;
+    }  
+    .csec24{
+        width:15.2% ;
+    }
+    #dsec16{
+        width: 90%;
+        margin-right: 5%;
+    }
+}
+/*nav pakhsh music */
+@media screen and (max-width:947px){
+    #dnav6{
+        width: 15%;
+        margin-right: 83%;
+    }  
+}
+/*foot the largest */
+@media screen and (max-width:933px){
+    #dsec19{
+        width: 70%;
+        margin-right: 29%;
+    }  
+}
+/*foot 2018 by*/
+@media screen and (max-width:929px){
+    #dsec21{
+        width: 10%;
+    }
+    #dsec18{
+        width: 8%;
+    }  
+}
+/*nav search*/
+@media screen and (max-width:942px){
+    #dnav4{
+        width: 23%;
+    }
+}
+/*nav sabte nam*/
+@media screen and (max-width:971px){
+    #dnav31{
+        width: 1300%;
+    }  
+}
+/*nav sabte nam*/
+@media screen and (max-width:899px){
+    #dnav31{
+        width: 1400%;
+    }  
+}
+/*nav listpakhsh & rain music*/
+@media screen and (max-width:807px){
+      #dnav9{
+        width: 26%;
+        margin-right: 71%;
+    }
+    #dnav8{
+        width: 70%;
+    }
+    .cnav8{
+        float: right;
+        margin-right: 0;
+        width:14.2%;
+    }
+}
+/*nav listpakhsh & rain music*/
+@media screen and (max-width:797px){
+      #di2{
+        display: none;
+    }
+    #dnav9{
+        width: 40%;
+        margin-right: 60%;
+        text-align: left;
+    }
+    #dnav11{
+        width:60%;
+        margin-left: -15%;
+    }
+}
+/*foot the largest */
+@media screen and (max-width:803px){
+    #dsec19{
+        width: 90%;
+        margin-right: 9%;
+    }  
+}
+/*foot 2018 by*/
+@media screen and (max-width:779px){
+    #dsec18{
+        width: 9.7%;
+    }
+    #dsec21{
+        width: 11%;
+    }
+}
+/*nav listpakhsh & rain music*/
+@media screen and (max-width:769px){
+    #dnav8{
+        width:78%;
+        text-align: right;
+        margin-right: 0;
+    }
+    .cnav8{
+        width: 13%;
+        margin-right: 0;
+    }
+    #dnav11{
+        display: none;
+    }
+    #di2{
+        display: block;
+    }
+    #dnav9{
+        width: 5%;
+        margin-right: 90%;
+    }
+    #dcnav8{
+        width: 20%;
+        width: 20%;
+    }
+}
+/*nav sabte nam*/
+@media screen and (max-width:835px){
+    #dnav31{
+        width: 1500%;
+    }  
+}
+/*nav sabte nam*/
+@media screen and (max-width:781px){
+    #dnav31{
+        width: 1600%;
+    }  
+}
+/*nav facebook search logoes*/
+@media screen and (max-width:742px){
+    #dnav5{
+        display: none;
+    }
+    #dnav4{
+        width: 30%;
+        margin-right: 35%;
+    }
+    #dnav2{
+        width: 20%;
+        margin-right: 5%;
+    }
+    #dnav3{
+        margin-right: 29%;
+    }
+}
+/*nav pakhsh music */
+@media screen and (max-width:947px){
+    #dnav6{
+        width: 13%;
+        margin-right: 86%;
+    }  
+}
+/*nav pakhsh music */
+@media screen and (max-width:805px){
+    #dnav6{
+        width: 15%;
+        margin-right: 83%;
+    }  
+}
+/*nav pakhsh music */
+@media screen and (max-width:699px){
+    #dnav6{
+        width: 17%;
+        margin-right: 81%;
+    }  
+}
+/*foot 2018 by*/
+@media screen and (max-width:697px){
+    #dsec18{
+        width: 11%;
+    }  
+    #dsec21{
+        width: 13%;
+    }  
+    #dsec22{
+        width: 27%;
+    }  
+}
+/*foot harim khosoosi*/
+@media screen and (max-width:659px){
+    #dsec16{
+        width: 100%;
+        margin-right: 0;
+    }
+    .csec25{
+        width: 16.0%;
+        text-align: center;
+        margin-right: 0;
+        margin-left: 0;
+    }  
+    .csec24{
+        width:16.6%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    #dsec16{
+        width: 90%;
+        margin-right: 1%;
+    }
+}
+/*foot harim khosoosi*/
+@media screen and (max-width:639px){
+    #dsec16{
+        width: 100%;
+        margin-right: 0;
+    }
+    .csec25{
+        width: 19%;
+        text-align: center;
+        margin-right: 0;
+        margin-left: 0;
+    }  
+    .csec24{
+        width:16.6%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    #dsec16{
+        width: 90%;
+        margin-right: 1%;
+    }
+}
+/*foot the largest */
+@media screen and (max-width:627px){
+    #dsec19{
+        width: 100%;
+        margin-right: -1%;
+    }  
+}
+/*nav pakhsh music */
+@media screen and (max-width:619px){
+    #dnav6{
+        width: 22%;
+        margin-right: 74%;
+    }  
+}
+/*foot the largest */
+@media screen and (max-width:590px){
+    #dsec21{
+        width: 15%;
+    }
+    #dsec18{
+        width: 13%;
+        margin-right: -1%;
+    } 
+}
+/*foot the largest */
+@media screen and (max-width:567px){
+    #dsec19{
+        width: 100%;
+        font-size: 17px;
+    }  
+}
+/*foot harim khosoosi*/
+@media screen and (max-width:619px){
+    #dsec16{
+        width: 100%;
+        margin-left: 2%;
+    }
+    .csec25{
+        width: 16%;
+        font-size: 19px;
+        text-align: center;
+        margin-right: 0;
+        margin-left: 0;
+    }  
+    .csec24{
+        width:16%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+/*sec music jadid*/
+@media screen and (max-width:575px){
+    #dsec14{
+        width: 35%;
+    }
+    #dsec12{
+        width: 30%;
+    }
+}
+/*nav facebook */
+@media screen and (max-width:560px){
+    #dnav2{
+        width: 25%;
+        margin-right: 2%;
+    }  
+}
+/*foot the largest */
+@media screen and (max-width:513px){
+    #dsec21{
+        width: 18%;
+    }
+    #dsec18{
+        width: 16%;
+        margin-right: -1%;
+    } 
+}
+/*nav listpakhsh */
+@media screen and (max-width:508px){
+    #dnav8{
+        width: 90%;
+        margin-right: 0;
+    }
+    .cnav8{
+        width: 12.5%;
+        margin-right: 0;
+    }
+    #dnav9{
+        margin-right: 85%;
+    }
+}
+/*foot harim khosoosi all right*/
+@media screen and (max-width:499px){
+    #dsec16{
+        width: 100%;
+        margin-left: 0;
+    }
+    .csec25{
+        width: 16.5%;
+        font-size: 19px;
+        text-align: center;
+        margin-right: 0;
+        margin-left: 0;
+    }  
+    .csec24{
+        width:16.5%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    #dsec22{
+        width: 34%;
+    }
+    #dsec19{
+        font-size: 16px;
+    }
+}
+/*nav pakhsh music */
+@media screen and (max-width:483px){
+    #dnav6{
+        width: 25%;
+        margin-right: 74%;
+    }  
+}
+/*nav search */
+@media screen and (max-width:562px){
+    #dnav4{
+        width: 36%;
+        margin-right: 35%;
+        font-size: 15px;
+    }  
+}
+/*nav listpakhsh*/
+@media screen and (max-width:908px){
+    #dcnav8{
+        width: 14%;
+    }  
+}
+/*nav listpakhsh*/
+@media screen and (max-width:779px){
+    #dcnav8{
+        width: 17%;
+    }  
+}
+/*nav listpakhsh*/
+@media screen and (max-width:908px){
+    .cnav8{
+        width: 10%;
+    }  
+}
+/*nav listpakhsh*/
+@media screen and (max-width:599px){
+    #dnav8{
+        width: 99%;
+    }
+    .cnav8{
+        width: 10%;
+    }  
+}
+/*sec tarikh */
+@media screen and (max-width:1454px){
+    #dsec7{
+        width: 56%;
+    }  
+}
+/*sec dislike */
+@media screen and (max-width:1443px){
+    .csec9{
+        width: 99%;
+        margin-right: 1%;
+    }  
+}
+/*sec pakhsh baghal tarikh */
+@media screen and (max-width:1454px){
+    #dsec6{
+        width: 40%;
+        margin-right: 0;
+        text-indent: 45px;
+    }  
+}
+/*head menu */
+@media screen and (max-width:1391px){
+    .chead1{
+        width: 7%;
+    }
+    #dhead2{
+        margin-right:6.8%;
+    }
+    #dhead3{
+        margin-right:11.5% ;
+    }
+}
+/*sec pakhsh baghal tarikh */
+@media screen and (max-width:1349px){
+    #dsec6{
+        width: 40%;
+        margin-right: 0;
+        text-indent: 35px;
+    }  
+}
+/*sec address insta*/
+@media screen and (max-width:1367px){
+    #dsec9{
+        width: 45%;
+    }  
+}
+/*sec*/
+@media screen and (max-width:1250px){
+    #dsec1{
+        width: 30%;
+        margin-left: 2%;
+    }
+    #dsec2{
+        width: 30%;
+        margin-left: 2%;
+    }  
+    #dsec3{
+        width: 30%;
+    } 
+    #dsec6{
+        text-indent: 60px;
+    }
+}
+/*head menu */
+@media screen and (max-width:1211px){
+    #dhead11{
+        width: 20%
+    }
+}
+/*head menu */
+@media screen and (max-width:1195px){
+    .chead1{
+        width: 8%;
+    }
+    #dhead2{
+        margin-right:7.3%;
+    }
+    #dhead3{
+        margin-right:12.5% ;
+    }
+}
+/*sec pakhsh baghal tarikh */
+@media screen and (max-width:1163px){
+    #dsec6{
+        text-indent: 47px;
+    }  
+}
+/*sec pakhsh baghal tarikh */
+@media screen and (max-width:1054px){
+    #dsec6{
+        text-indent: 35px;
+    }  
+}
+/*head menu */
+@media screen and (max-width:1047px){
+    .chead1{
+        width: 9%;
+    }
+    #dhead2{
+        margin-right:7.8%;
+    }
+    #dhead3{
+        margin-right:13.5% ;
+    }
+}
+/*sec tarikh */
+@media screen and (max-width:979px){
+    #dsec1{
+        width: 40%;
+        margin-left: 2%;
+    }
+    #dsec2{
+        width: 50%;
+        margin-left: 2%;
+    }  
+    #dsec3{
+        position: absolute;
+        width: 70%;
+        margin:600px 15% 0 0;
+    } 
+    #dsec6{
+        text-indent: 190px;
+    }
+    section{
+        height: 1100px;
+    }
+    #dsec11{
+        margin: 73px 0 0 4%;
+    }
+    #dsec12{
+        margin: 23px 0 0 4%;
+    }
+    #dsec10{
+        margin: 8px 40% 0 0;
+    }
+    #dsec13{
+        margin-right: 87%;
+    }
+}
+/*head menu */
+@media screen and (max-width:933px){
+    .chead1{
+        width: 13%;
+    }
+    #dhead2{
+        margin-right:9%;
+    }
+    #dhead3{
+        margin-right:16.5% ;
+    }
+}
+/*sec pakhsh baghal tarikh */
+@media screen and (max-width:973px){
+    #dsec6{
+        text-indent: 170px;
+    }  
+}
+/*sec pakhsh baghal tarikh */
+@media screen and (max-width:901px){
+    #dsec6{
+        text-indent: 150px;
+    }  
+}
+/*head menu */
+@media screen and (max-width:722px){
+    .chead1{
+        width: 16%;
+    }
+    #dhead2{
+        margin-right:10.3%;
+    }
+    #dhead3{
+        margin-right:19.5% ;
+    }
+}
+/*sec pakhsh baghal tarikh */
+@media screen and (max-width:829px){
+    #dsec6{
+        text-indent: 130px;
+    }  
+}
+/*sec pakhsh baghal tarikh */
+@media screen and (max-width:758px){
+    #dsec6{
+        text-indent: 110px;
+    }  
+}
+/*head menu */
+@media screen and (max-width:570px){
+    .chead1{
+        width: 20%;
+    }
+    #dhead2{
+        margin-right:12.3%;
+    }
+    #dhead3{
+        margin-right:23.5% ;
+    }
+}
+/*sec pakhsh */
+@media screen and (max-width:653px){
+    #dsec10{
+        width: 40%;
+        margin-right: 28%;
+    }  
+}
+/*sec pakhsh baghal tarikh */
+@media screen and (max-width:687px){
+    #dsec6{
+        text-indent: 88px;
+    }  
+}
+/*head menu */
+@media screen and (max-width:487px){
+    .chead1{
+        width: 25%;
+    }
+    #dhead2{
+        margin-right:13.6%;
+    }
+    #dhead3{
+        margin-right:27.5% ;
+    }
+}
+/*sec pakhsh*/
+@media screen and (max-width:569px){
+    #dsec12{
+        width: 55%;
+    }
+    #dsec155{
+        margin-right: 22%;
+    }
+    #dsec166{
+        width: 10%;
+        margin-right: 11%;
+    }
+    #dsec188{
+        margin-right: 6%;
+    }
+}
+/*sec pakhsh baghal tarikh */
+@media screen and (max-width:607px){
+    #dsec6{
+        text-indent: 68px;
+    }  
+}
+/*sec list*/
+@media screen and (max-width:559px){
+    .csec2{
+        width: 30%;
+        margin-left: 1%;
+    }
+    .csec3{
+        font-size: 17px;
+    }
+    .csec4{
+        
+        font-size: 18px;
+    }
+    .csec5{
+        width: 54.6%;
+        font-size: 15px;
+    }
+}
+/*sec pakhsh baghal tarikh */
+@media screen and (max-width:537px){
+    #dsec6{
+        text-indent: 48px;
+    }  
+}
+/*sec pakhsh baghal tarikh */
+@media screen and (max-width:607px){
+    #dsec6{
+        text-indent: 68px;
+    }  
+}
+/*sec list*/
+@media screen and (max-width:486px){
+    .ci2{
+        font-size: 15px;
+    }
+    .csec2{
+        width: 30%;
+        margin-left: 1%;
+    }
+    .csec3{
+        font-size: 15px;
+    }
+    .csec4{
+        width: 44%;
+        font-size: 17px;
+    }
+    .csec411{
+        font-size: 12px;
+    }
+    .csec5{
+        width: 54.6%;
+        font-size: 15px;
+    }
+}
+/*sec pakhsh baghal tarikh */
+@media screen and (max-width:537px){
+    #dsec6{
+        text-indent: 48px;
+    }  
+}
+/*nav sabte nam*/
+@media screen and (max-width:733px){
+    #dnav31{
+        width: 1700%;
+    }  
+}
+/*nav sabte nam*/
+@media screen and (max-width:691px){
+    #dnav31{
+        width: 1800%;
+    }  
+}
+/*nav sabte nam*/
+@media screen and (max-width:654px){
+    #dnav36{
+        font-size: 19px;
+    }  
+}
+/*nav sabte nam*/
+@media screen and (max-width:569px){
+    #dnav36{
+        font-size: 17px;
+    }  
+}
+/*nav sabte nam*/
+@media screen and (max-width:513px){
+    #dnav31{
+        width: 2000%;
+    }  
+}
